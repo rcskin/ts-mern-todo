@@ -1,14 +1,14 @@
 
-import './App.css'
+import './App.css';
+import TodoApp from "../components/Todo";
 
 function App() {
  
-
   return (
     <>
-      <h1>KOWABUNGA DUDE!</h1>
+      <TodoApp />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
